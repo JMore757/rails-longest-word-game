@@ -8,3 +8,48 @@
  *
  * Consider organizing styles into separate files for maintainability.
  */
+ body {
+  background-color: #f4f6f9;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.letter-grid {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.letter-card {
+  background-color: #3498db;
+  color: white;
+  width: 55px;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 8px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+.game-card {
+  max-width: 450px;
+  border: none;
+  border-radius: 12px;
+}
+
+.btn-primary {
+  background-color: #3498db;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #217dbb;
+}
